@@ -27,3 +27,9 @@ Modern Convolutional Neural Networks (CNNs) are used in various artificial intel
 # Code Usage
 
 1. Install Pytorch 1.8 : Our method is implemented in Python 3.6 and torch 1.8.0
+2. Clone the repository
+
+```
+git clone https://github.com/cvpr2023fsda/FSDA_CVPR2023.git
+cd FSDA_CVPR2023
+```
