@@ -23,3 +23,7 @@ Modern Convolutional Neural Networks (CNNs) are used in various artificial intel
 
 ## Ablation Study
 ![Screenshot from 2023-03-13 22-46-34](https://user-images.githubusercontent.com/127758215/224721552-fd833123-a60a-45c0-987a-8d0662c17d05.png)
+
+# Code Usage
+
+1. Install Pytorch 1.8 : Our method is implemented in Python 3.6 and torch 1.8.0
