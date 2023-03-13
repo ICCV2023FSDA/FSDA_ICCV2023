@@ -4,7 +4,7 @@ Modern Convolutional Neural Networks (CNNs) are used in various artificial intel
 
 ![ours (1)](https://user-images.githubusercontent.com/127758215/224719744-602afaf6-0504-4ace-9fa9-f19f0f348a77.png)
 
-## Experiment Results
+## Quantitative Results
 ### CIFAR-10-C and CIFAR-100-C Image Classification Results
 ![Screenshot from 2023-03-13 22-45-42](https://user-images.githubusercontent.com/127758215/224720627-71d3a4af-9ad6-4eb5-891d-478807c6fc0a.png)
 
@@ -13,3 +13,13 @@ Modern Convolutional Neural Networks (CNNs) are used in various artificial intel
 
 ### STL-10 and STL-10-C Image Classification Results
 ![Screenshot from 2023-03-13 22-46-08](https://user-images.githubusercontent.com/127758215/224720977-e6078e47-0066-42c7-905b-16ceb92dc9ce.png)
+
+## Qualitative Results
+### Grad-CAM on WRN-40-2 without and with APR and FSDA
+![Screenshot from 2023-03-13 22-46-19](https://user-images.githubusercontent.com/127758215/224721337-fa8a5b33-500e-4986-b31e-27cabd495a79.png)
+
+### Grad-CAM on Corruption Data
+![Screenshot from 2023-03-13 22-46-27](https://user-images.githubusercontent.com/127758215/224721496-648710e3-aa29-44d0-a99e-b02362a26d14.png)
+
+## Ablation Study
+![Screenshot from 2023-03-13 22-46-34](https://user-images.githubusercontent.com/127758215/224721552-fd833123-a60a-45c0-987a-8d0662c17d05.png)
