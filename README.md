@@ -30,6 +30,21 @@ Modern Convolutional Neural Networks (CNNs) are used in various artificial intel
 2. Clone the repository
 
 ```
-git clone https://github.com/cvpr2023fsda/FSDA_CVPR2023.git
+git clone https://github.com/ICCV2023FSDA/FSDA_ICCV2023.git
 cd FSDA_CVPR2023
+```
+
+3. Dataset
+
+- We use three public image classification dataset(CIFAR-10/100, STL-10, and ImageNet).
+- For testing corruption robustness, download the CIFAR-10-C, CIFAR-100-C datasets.
+- Please put datasets in folder `dataset`
+
+4. Evaluation 
+
+- Download trained model and put it in folder `model_save`.
+- Evaluation code is in test.py
+
+```
+python test.py --data_path dataset --save_path model_save --data_type [DATA_TYPE] --epochs [EPOCHS] --lr 0.1 --augment [AUGMENT]
 ```
