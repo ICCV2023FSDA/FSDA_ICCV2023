@@ -23,28 +23,3 @@ Modern Convolutional Neural Networks (CNNs) are used in various artificial intel
 
 ## Ablation Study
 ![Screenshot from 2023-03-13 22-46-34](https://user-images.githubusercontent.com/127758215/224721552-fd833123-a60a-45c0-987a-8d0662c17d05.png)
-
-# Code Usage
-
-1. Install Pytorch 1.8 : Our method is implemented in Python 3.6 and torch 1.8.0
-2. Clone the repository
-
-```
-git clone https://github.com/ICCV2023FSDA/FSDA_ICCV2023.git
-cd FSDA_CVPR2023
-```
-
-3. Dataset
-
-- We use three public image classification dataset(CIFAR-10/100, STL-10, and ImageNet).
-- For testing corruption robustness, download the CIFAR-10-C, CIFAR-100-C datasets.
-- Please put datasets in folder `dataset`
-
-4. Evaluation 
-
-- Download trained model and put it in folder `model_save`.
-- Evaluation code is in test.py
-
-```
-python test.py --data_path dataset --save_path model_save --data_type [DATA_TYPE] --epochs [EPOCHS] --lr 0.1 --augment [AUGMENT]
-```
